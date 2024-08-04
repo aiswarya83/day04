@@ -1,0 +1,14 @@
+body{
+    background-color:rgb(205, 243, 230);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+}
+h1{
+    color: rgb(207, 16, 19);
+}
+p{
+    font-size: larger;
+    text-align:left;
+    color:black;
+}

@@ -1,0 +1,15 @@
+
+<div class="row">
+    @for(item of departments;track item.id){
+    <div class="card" style="width: 18rem;">
+        <img src="{{item.Image}}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{item.Title}}</h5>
+          <p class="card-text">{{item.description}}</p>
+          <a routerLink="{{item.path}}" class="btn btn-primary">visit</a>
+        </div>
+        </div>
+    }
+</div>
+<router-outlet></router-outlet>
+
